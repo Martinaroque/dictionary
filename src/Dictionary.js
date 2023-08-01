@@ -28,10 +28,12 @@ function handleKeyWord (event){
 
     return(
         <div className="dictionary"> 
+        <section>
 <form onSubmit={search}>
 
     <input type="search" autoFocus={true} onChange={handleKeyWord} placeholder="type a word"/>
 </form>
+</section>
 <Results results={results} />
         </div>
 

@@ -2,3 +2,11 @@ form{
 
     margin: 20px;
 }
+section{
+
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5) ;
+background-color: #aeccc6;
+margin: 20px 0;
+}
