@@ -15,11 +15,15 @@ setResults(response.data[0])
     console.log(response.data[0])
 }
 
+
+
+
 function search(event) {
 event.preventDefault();
     
     let apiUrl=`https://api.dictionaryapi.dev/api/v2/entries/en/${keyWord}`
-    axios.get(apiUrl).then(handleresponse)
+    axios.get(apiUrl).then(handleresponse);
+   
 }
 function handleKeyWord (event){
     
